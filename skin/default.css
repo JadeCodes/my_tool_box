@@ -1,0 +1,18 @@
+/*
+#1 = 35A49C
+#2 = 79CDC0
+*/
+	
+/* portfolio */
+.portfolio-item .portfolio-desc {
+	background: #35A49C;
+}
+
+/* footer */
+.social-circle li a {
+	background:#79CDC0;
+}
+
+a.scrollup{
+	background:#79CDC0;
+}
