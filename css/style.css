@@ -162,7 +162,6 @@ nav#filter a {
 }
 
 .portfolio-item:hover .portfolio-desc {
-	padding-top: 20%;
 	height: 100%;
     transition: all 200ms ease-in-out 0s;
 	opacity: 1;
