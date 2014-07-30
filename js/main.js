@@ -29,6 +29,7 @@
 
         $container.imagesLoaded( function() {
         $container.isotope('layout');
+        console.log('images loaded');
         });
 
         $('#filter a').click(function(){
@@ -46,14 +47,14 @@
             return false;
         });
         
-        
-        $(window).smartresize(function(){
+        $(window).resize(function(){
             $container.isotope({
                 // update columnWidth to a percentage of container width
                 masonry: {
                     columnWidth: $container.width() / $resize
                 }
             });
+            $container.isotope('layout');
         });	     
 
 	}  
