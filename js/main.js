@@ -1,13 +1,13 @@
-// initialize Isotope
-var $container = $('#container').isotope({
-  // options
-});
-// layout Isotope again after all images have loaded
-$container.imagesLoaded( function() {
-  $container.isotope('layout');
-});
-
 (function ($) {
+
+        // initialize Isotope
+    var $container = $('#container').isotope({
+        // options
+        });
+        // layout Isotope again after all images have loaded
+        $container.imagesLoaded( function() {
+        $container.isotope('layout');
+        });
 
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
